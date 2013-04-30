@@ -46,8 +46,8 @@ hi PMenuThumb                guibg=#AAAAAA gui=NONE
 
 
 "rubyComment
-hi Comment                   guifg=#BC9458 gui=italic
-hi Todo                      guifg=#BC9458 guibg=NONE gui=italic
+hi Comment                   guifg=#BC9458 
+hi Todo                      guifg=#BC9458 guibg=NONE
 
 "rubyPseudoVariable
 "nil, self, symbols, etc
@@ -127,13 +127,12 @@ highlight xmlEndTag                 guifg=#E8BF6A ctermfg=179
 
 highlight mailSubject               guifg=#A5C261 ctermfg=107
 highlight mailHeaderKey             guifg=#FFC66D ctermfg=221
-highlight mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
+highlight mailEmail                 guifg=#A5C261 ctermfg=107
 
-highlight SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline
-highlight SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-highlight SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+highlight SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE
+highlight SpellRare                 guifg=#D75F87 ctermfg=168 guibg=NONE ctermbg=NONE
+highlight SpellCap                  guifg=#D0D0FF ctermfg=189 guibg=NONE ctermbg=NONE
 highlight MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
-"
 "Invisible character colors
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
